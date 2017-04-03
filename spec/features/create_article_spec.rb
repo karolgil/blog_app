@@ -4,7 +4,7 @@ RSpec.feature 'Creating Articles' do
   scenario 'A user creates a new article' do
      visit '/'
 
-     click_link 'New Article'
+     click_link 'New article'
 
      fill_in 'Title', with: 'Creating a blog'
      fill_in 'Body', with: 'Lorem Ipsum'
